@@ -1,0 +1,11 @@
+application: ethereal-cache-523
+version: authuser
+runtime: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script: authUser.php
+
+# - url: /_ah/login_required
+#   script: do_openid_login.app 
